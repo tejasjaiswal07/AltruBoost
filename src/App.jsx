@@ -8,7 +8,7 @@ import Leaderboard from './components/Leaderboard'
 import DonationHistory from './components/DonationHistory'
 import VirtualNewspaper from './components/VirtualNewspaper'
 import { ToastProvider } from "@/components/ui/toast"
-import { Toaster } from "@/components/ui/toaster"
+// import { Toaster } from "@/components/ui/toaster"
 
 export default function DonationApp() {
   const [wealth, setWealth] = useState(0)
@@ -88,7 +88,7 @@ export default function DonationApp() {
         </div>
       </div>
     </div>
-    <Toaster />
+    {/* <Toaster /> */}
   </ToastProvider>
   )
 }
